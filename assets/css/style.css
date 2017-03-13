@@ -1,0 +1,248 @@
+
+*{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0 auto;
+	box-sizing: border-box;
+}	
+
+
+h1,h2,h3{
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
+body{
+	
+	/*background-color: pink;*/
+	background-image: url("../Images/concrete_seamless.png");
+	
+}
+
+h2{
+	font-size: x-large;
+	font-weight: bold;
+	}
+
+h3{
+	font-size: large;
+	font-weight: bold;
+	
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+}
+
+#header{
+	width:100%;
+	height: 70px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	position: relative;
+	overflow: auto;
+	
+	
+}
+
+#name h1{
+	
+	color: #ffffff;
+	font-size: x-large;
+	font-weight: bold;
+	padding: 8px;
+	padding-top: 20px;
+
+}
+
+#name{
+	background-color: #4aaaa5;
+	float: left;
+	margin: 0 auto;
+	position: absolute;
+	left: 310px;
+	height: 100%;
+
+
+}
+
+#nav-list{
+	position: absolute;
+	right: 400px;
+	bottom: 30px;
+}
+
+.nav{
+	float: right;
+	
+}
+
+
+.nav-a{
+	text-decoration: none;
+	color: #a9a9a9;
+	padding: 5px;
+}	
+
+
+.clear{
+	clear: both;
+}
+
+.main{
+margin: 0 auto;	
+max-width: 960px;
+width: 100%;
+margin-top: 30px;
+margin-bottom: 20px;
+overflow: auto;
+
+}
+
+.content{
+	max-width: 550px;
+	width: 100%;
+	background-color: #ffffff;
+	float: left;
+	padding: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	line-height: 200%;
+	display: inline;
+
+}
+.content h3{
+	
+	margin: 0 auto;
+		
+}
+
+.content p{
+	font-size: large;
+}
+
+
+
+.hrline{
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#img{
+margin-right: 20px;
+float: left;
+width: 200px;
+height: 150px;
+}
+
+.side-panel{
+	max-width: 250px;
+	height: 160px;
+	width: 100%;
+	background-color: #ffffff;
+	float: right;
+	padding: 20px 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	text-align: center;
+	margin: 0;
+	display: inline;
+}
+
+.connect-icon{
+
+	width: 50px;
+	height: 50px;
+	margin: 8px;
+
+}
+
+
+#footer{
+	position: relative;
+	top: 253px;
+	border-top-style: solid;
+	border-width: 5px;
+	border-color: #4ca9a4;
+	background-color: #666666;
+	padding: 25px 0 25px 0;
+	display: block;
+	overflow: auto;
+	
+
+}
+
+#footer p{
+	text-align: center;
+	font-size: 9pt;
+	color: #ffffff;
+}
+
+/*---------------Form styling-----------------*/
+
+.label-class{
+font-weight: bold;
+padding-bottom: 0;
+
+
+}
+
+.input-class{
+	padding-top: 0;
+	width: 510px;
+	box-sizing: content-box;
+}
+
+
+#submit-button{
+
+	background-color: #4aaaa5;
+	border-color: #4aaaa5;
+	border-style: none; 
+	width: 80px;
+	height: 30px;
+}
+
+/*---------------portfolio styling-----------------*/
+
+.img-div {
+	width: 230px;
+	height: 190px;
+	background-color: #000000;
+	margin: 10px 37px 30px 0;
+	position: relative; 
+	display: inline-block;
+	overflow: hidden;
+}
+
+.img-div.right {
+	margin-right: 0px;
+}
+
+.port-img {
+	width: 100%;
+	min-height: auto;
+}
+
+.port-text {
+	font-size: x-large;
+	font-weight: normal;
+	z-index: 20;
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+	line-height: 60px;
+	height: 60px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+
+}
